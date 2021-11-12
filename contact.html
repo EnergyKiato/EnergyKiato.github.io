@@ -1,0 +1,134 @@
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<!DOCTYPE html>
+<!-- saved from url=(0049)https://getbootstrap.com/docs/5.0/examples/cover/ -->
+<html lang="en" class="h-100"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" Energy Kiato - Συνεργάτης Volton">
+    <meta name="author" content="Mimesis GR">
+    <title>Kiato Energy Website</title>
+    
+
+    <style>
+      .min-width-freeze{
+          max-width:50rem;
+          
+      }
+      .min-width-freeze-sm{
+          max-width:50rem;
+      }
+
+      .min-width-freeze-check{
+          max-width:30rem;
+      }
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .btn-primary{
+          color:black;
+      }
+      .text-white{
+        color:wheat !important ;
+      }
+      .bg-white{
+        background-color: wheat !important;
+      
+      }
+    </style>
+    
+  </head>
+  <body class="d-flex h-100 text-center text-white bg-dark">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+ <header class="mb-auto">
+    <div>
+      <h3 class="float-md-start mb-0">ENERGY KIATOU</h3>
+      <nav class="nav nav-masthead justify-content-center float-md-end text-white">
+        <a class="nav-link text-white "  aria-current="page" href="index.html">ΚΕΝΤΡΙΚΗ</a>
+        <a class="nav-link active" style="color:darkgray;" href="#">ΕΠΙΚΟΙΝΩΝΙΑ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="px-3 my-auto ">
+
+      <img class="img-fluid mx-auto " style="max-height: 15rem;" src="img/LogoLarge.png" href="index.html">
+    <h1>ΕΝΕΡΓΕΙΑΚΟ ΓΡΑΦΕΙΟ ΚΙΑΤΟΥ</h1>
+    <p class="lead">Συμπληρώστε τα στοιχεία σας και θα επικοινωνήσουμε μαζί σας άμεσα</p>
+    <p class="lead">
+        <form action="https://formspree.io/f/mbjqvavg"  method="POST">
+
+            <div class="row g-4 align-items-center ">
+                <div class="col-lg-12 mb-3 mx-auto min-width-freeze"  >
+                  <label for="Name" class="form-label">Ονομα</label>
+                  <input type="text" placeholder="(π.χ. ΓΙΩΡΓΟΣ ΠΑΠΑΔΟΠΟΥΛΟΣ)" name="Name" class="form-control" id="Name" required>
+                </div>
+            </div>
+            <div class="row g-4 align-items-center ">
+                <div class="col-lg-12 mb-3 mx-auto min-width-freeze"  >
+                  <label for="E-Mail" class="form-label">E-mail</label>
+                  <input type="email" name="Email" placeholder = "(π.χ. Giorgos@papadopoulos.com)"class="form-control" id="Email" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">Το e-mail σας θα χρησιμοποιηθεί μόνο για αυτή την επικοινωνία και δεν θα αποκαλυφθεί σε κανένα τρίτο πρόσωπο</div>
+                </div>
+                
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-12 mb-3 mx-auto min-width-freeze">
+                  <label for="Phone Number" class="form-label">Τηλέφωνο επικοινωνίας</label>
+                  <input type="number" name="Phone Number" placeholder="(π.χ. 697-4444-444)" class="form-control" id="Phone Number" required>
+                </div>
+            </div>
+
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-12 mb-3 mx-auto min-width-freeze">
+                  <label for="Supply Number" class="form-label">Αριθμός Παροχής Ηλ.Ρεύματος (προαιρετικό)</label>
+                  <input type="number" placeholder="(π.χ. 3 15579558-96)" name="Supply Number" class="form-control" id="Provision Number" aria-describedby="supplyHelp">
+                  <div id="supplyHelp" class="form-text">Ο αριθμός παροχής σας θα μας βοηθήσει να σας εξυπηρετήσουμε πιο εύκολα</div>
+                </div>
+            </div>
+
+
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-12 mb-3 form-check mx-auto px-5 min-width-freeze-check" style="align-content: left;" >
+                  <input type="checkbox" name="Only Mail" class="form-check-input" id="Only Mail">
+                  <label class="form-check-label"  for="Only Mail">Προτιμώ επικοινωνία μόνο μέσω Ηλ.Ταχυδρομείου (e-mail)</label>
+                </div>
+            </div>
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-12 mb-3 mx-auto min-width-freeze">
+                  <button type="submit" class="mx-auto btn btn-primary" style="background-color:wheat; border-color:#ffaa4f; border-width: 0px;">Αίτηση για επικοινωνία</button>
+                </div>
+            </div>
+
+  </form>
+    </p>
+  </main>
+  <footer class="mt-auto text-white-50 justify-content-center">
+    <p>Ακολουθήστε μας στο Facebook ή στο Instagram για να μαθαίνετε πρώτοι τα νέα και τις προσφορές μας.</p>
+    <div class="row align-items-center justify-content-center">
+    <img class="col-6 mx-3 mb-5 mt-3" src="img/fbIcon.svg" href="#" style="width:150px; height:auto">
+    <img class="col-6 mx-3 mb-5 mt-3" src="img/instaIcon.svg" href="#" style="width:150px; height:auto">
+    </div>
+  </footer>
+</div>
+
+
+    
+  
+
+</body></html>
