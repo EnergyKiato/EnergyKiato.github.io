@@ -1,0 +1,50 @@
+      .min-width-freeze{
+          max-width:50rem;
+          
+      }
+      .min-width-freeze-sm{
+          max-width:50rem;
+      }
+
+      .min-width-freeze-check{
+          max-width:30rem;
+      }
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .btn-primary{
+          color:black;
+      }
+      .text-white{
+        color:white !important ;
+      }
+      .text-dark{
+        color: #073B4C !important;
+      }
+      .bg-white{
+        background-color: #157243 !important;
+      }
+
+     .bg-light{
+        background-color:#4caed4 !important;
+      } 
+      hr.rounded{
+        border-top: 4px solid wheat ;
+        opacity:100;
+        border-color:wheat;
+        border-radius:5px;
+        visibility: visible;
+      }
+      
